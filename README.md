@@ -1,9 +1,12 @@
 A Python script that converts multiple SVG files to PNG format with a user-friendly graphical interface.
 
-Installation
-Prerequisites
+Prerequisites:
+
 Python 3.x installed on your machine.
-Inkscape installed and accessible at the following path: "C:\Program Files\Inkscape\bin\inkscape.exe".
+
+Inkscape installed and accessible at the following path: 
+"C:\Program Files\Inkscape\bin\inkscape.exe"
+
 Clone this repository to your local machine by running the following command in your terminal:
 
 git clone https://github.com/JunkBoy76/SVG-To-PNG-Batch-Converter.git
