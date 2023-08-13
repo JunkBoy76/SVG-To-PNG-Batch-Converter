@@ -1,33 +1,43 @@
-Follow the steps below to get the project up and running on your local machine.
+SVG to PNG Batch Converter
+Easily convert multiple SVG files to PNG format using a user-friendly Python script with an intuitive graphical interface.
+
+Features
+Batch Conversion: Convert multiple SVG files simultaneously.
+
+Graphical Interface: No need for command-line expertise; just select your files and convert.
+
+Multiprocessing: Speed up conversions by processing multiple files in parallel.
 
 
-1.1 Clone or Download the Project:
-If you have the project hosted on a version control platform like GitHub, you can clone it. Otherwise, make sure all the files are in a single directory on your machine.
+Prerequisites:
+Python 3.x: Ensure you have Python 3.x installed on your machine.
+
+Inkscape: This tool uses Inkscape for the SVG to PNG conversion process. 
+Make sure it's installed and accessible at the following path:
+C:\Program Files\Inkscape\bin\inkscape.exe
 
 
-1.2 Install Dependencies:
-Navigate to the project directory in your terminal or command prompt. If you've set up a virtual environment (recommended), make sure it's activated.
+Setup and Installation:
+Clone the Repository:
+git clone https://github.com/JunkBoy76/SVG-To-PNG-Batch-Converter.git
 
 
-Install the required Python packages:
+Navigate to the Project Directory:
+cd SVG-To-PNG-Batch-Converter
+
+Install Required Dependencies:
 pip install -r requirements.txt
 
-
-1.3 Run the Python Script:
-In the same directory, execute the main Python script:
+How to Use:
+Run the Script:
 python batch_svg2png.py
 
 
-This will launch the graphical user interface for the SVG to PNG converter.
+Select Directories:
 
-2. Using the Tool:
-Launch the Interface: Running the script will bring up the graphical user interface.
-Select Directories: Use the "Browse" buttons to select the input directory (containing SVG files) and the output directory (where PNG files will be saved).
-Start Conversion: Click the "Start Conversion" button. The tool will begin converting the SVG files to PNG format.
-Monitor Progress: The progress of the conversion will be displayed. Once complete, a message box will notify you.
+Click "Browse" next to "Input Directory" to choose the directory containing your SVG files.
+Click "Browse" next to "Output Directory" to specify where you'd like the PNG files to be saved.
+Start Conversion:
+Click the "Start Conversion" button. The tool will begin converting all SVG files from the input directory to PNG format, saving them in the specified output directory.
 
-
-3. Additional Notes:
-Always back up your SVG files before running the conversion, especially if you're trying the tool for the first time.
-If you encounter any issues or need more features, you can modify the batch_svg2png.py script.
-Make sure to regularly commit your changes if you're using version control (like Git) to track the project's progress.
+Monitor Progress: The progress of the conversion will be displayed in the interface. Once complete, a notification will inform you of the completion.
